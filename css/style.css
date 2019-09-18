@@ -7,7 +7,7 @@ body {
     flex-flow: row;
     color: #d1d7e0;
     background-color: #2e293c;
-    height: 100px;
+    height: 70px;
 }
 
 #navlogo {
@@ -18,12 +18,14 @@ body {
 }
 
 #navdiv {
-    height: 90px;
+    height: 70px;
     display: flex;
     justify-content: flex-end;
-    padding-top: 70px;
+    padding-top: 20px;
+    padding-bottom: 10px;
+
     width:80%;
-    color: white;
+    color: rgba(255, 255, 255, 0.461);
     margin-left: 20px;
 
 
@@ -60,17 +62,30 @@ body {
 
 .navlink {
 
+    height: 30px;
+    width: 150px;
+    border: 1px solid #dfe5ee;
     vertical-align: bottom;
     color: #dfe5ee;
     font-family: 'Michroma', sans-serif;
+    font-size: 12px;
+    letter-spacing:5px;
     font-size: 15px;
     margin-left:50px;
-    margin-right: 50px;
+    margin-right: 10px;
+    text-align:center;
+
+    
 }
 
 .jumbotron {
 
-    background-image: url(images/EverypageImages/Laptopglasses.png);
+    height:600px;
+    background-image: url("images/EverypageImages/Laptopglasses.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: bottom;
+    background-attachment: scroll;
 
     color:white;
     background-color: #2e293c;
@@ -81,6 +96,15 @@ body {
 }
 
 #innerdiv {
+
+    /* height:400px;
+    background-image: url("images/EverypageImages/Laptopglasses.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center; */
+    background-color: #2e293cbd;
+    font-family: 'Quattrocento Sans', sans-serif;
+    letter-spacing: 12px;
 
     border: white;
     border-style: solid;
