@@ -1,2 +1,2 @@
 # DESIGN-PORTFOLIO
-PORTFOLIO OF MY LANDSCAPE AND OTHER ARTWORK
+A portfolio of my work as a full stack developer as well as a designer and more.
