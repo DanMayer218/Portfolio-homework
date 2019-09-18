@@ -1,0 +1,86 @@
+body {
+    background-color: #14121a;
+}
+
+#navvbar {
+    display: flex;
+    flex-flow: row;
+    color: #d1d7e0;
+    background-color: #2e293c;
+    height: 100px;
+}
+
+#navlogo {
+    width: 10%;
+    height: 80px;
+    margin-left: 30px;
+    margin-top: 10px;
+}
+
+#navdiv {
+    height: 90px;
+    display: flex;
+    justify-content: flex-end;
+    padding-top: 70px;
+    width:80%;
+    color: white;
+    margin-left: 20px;
+
+
+}
+
+/* #codingnav {
+    color: #d1d7e0;
+    font-size: 15px;
+}
+
+#designav {
+
+
+    color: #d1d7e0; */
+    /* margin-left: 10px; */
+    /* font-size: 15px;
+
+}
+
+#aboutnav {
+
+    color: #d1d7e0;
+
+    font-size: 15px;
+
+}
+
+
+#navname {
+    color: #d1d7e0;
+    font-size: 30px;
+
+} */
+
+.navlink {
+
+    vertical-align: bottom;
+    color: #dfe5ee;
+    font-family: 'Michroma', sans-serif;
+    font-size: 15px;
+    margin-left:50px;
+    margin-right: 50px;
+}
+
+.jumbotron {
+
+    color:white;
+    background-color: #2e293c;
+    margin-top: 20px;
+    text-align: center;
+    padding-left: 50px;
+    padding-right: 50px;
+}
+
+#innerdiv {
+
+    border: white;
+    border-style: solid;
+    border-width: 5px;
+}
