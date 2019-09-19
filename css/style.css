@@ -36,34 +36,7 @@ body {
 
 }
 
-/* #codingnav {
-    color: #d1d7e0;
-    font-size: 15px;
-}
 
-#designav {
-
-
-    color: #d1d7e0; */
-    /* margin-left: 10px; */
-    /* font-size: 15px;
-
-}
-
-#aboutnav {
-
-    color: #d1d7e0;
-
-    font-size: 15px;
-
-}
-
-
-#navname {
-    color: #d1d7e0;
-    font-size: 30px;
-
-} */
 
 .navlink {
 
@@ -138,9 +111,11 @@ body {
 
 #artcard {
 
-    background-color: #2e293c;
-
-    color: #f1f2f4d6;
+    background-color: #8888889e;
+    color: #f7f7f7d6;
+    border: 1px solid #f4f4f490;
+    justify-content: center;
+    margin-bottom: 40px;
 
 
 }
@@ -155,8 +130,13 @@ body {
 
 #gallcards {
 
-    background-color: #2e293c;
+    background-color: #858585;
     color: #00000090;
     /* background-color: #2e293c;
     color: #d9dbde90; */
+}
+
+#h5card {
+
+    text-decoration: underline;
 }
