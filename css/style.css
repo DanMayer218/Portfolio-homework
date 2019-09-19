@@ -6,8 +6,11 @@ body {
     display: flex;
     flex-flow: row;
     color: #d1d7e0;
+    font-size: 5px;
+    font-family: 'Michroma', sans-serif;
+
     background-color: #2e293c;
-    height: 70px;
+    height: 95px;
 }
 
 #navlogo {
@@ -20,11 +23,13 @@ body {
 #navdiv {
     height: 70px;
     display: flex;
-    justify-content: flex-end;
-    padding-top: 20px;
+    justify-content: space-between;
+    align-content: bottom;
+    padding-top: 55px;
     padding-bottom: 10px;
-
-    width:80%;
+    font-size: 5px;
+    font-family: 'Michroma', sans-serif;
+    /* width:80%; */
     color: rgba(255, 255, 255, 0.461);
     margin-left: 20px;
 
@@ -62,17 +67,17 @@ body {
 
 .navlink {
 
-    height: 30px;
-    width: 150px;
-    border: 1px solid #dfe5ee;
+    height: 25px;
+    width: 125px;
+    border: 1px solid #d9dbde90;
     vertical-align: bottom;
-    color: #dfe5ee;
+    color: #cbcdcf90;
     font-family: 'Michroma', sans-serif;
-    font-size: 12px;
+    font-size: 5px;
     letter-spacing:5px;
     font-size: 15px;
-    margin-left:50px;
-    margin-right: 10px;
+    margin-left:60px;
+    /* margin-right: 10px; */
     text-align:center;
 
     
@@ -80,7 +85,7 @@ body {
 
 .jumbotron {
 
-    height:600px;
+    height:650px;
     background-image: url("images/EverypageImages/Laptopglasses.png");
     background-size: cover;
     background-repeat: no-repeat;
@@ -89,19 +94,16 @@ body {
 
     color:white;
     background-color: #2e293c;
-    margin-top: 20px;
+    margin-top: 10px;
     text-align: center;
     padding-left: 50px;
     padding-right: 50px;
+    margin-bottom: 10px;
 }
 
 #innerdiv {
 
-    /* height:400px;
-    background-image: url("images/EverypageImages/Laptopglasses.png");
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center; */
+   
     background-color: #2e293cbd;
     font-family: 'Quattrocento Sans', sans-serif;
     letter-spacing: 12px;
@@ -110,3 +112,23 @@ body {
     border-style: solid;
     border-width: 5px;
 }
+
+#footerdiv {
+
+    height: 90px;
+    background-color: #2e293c;
+}
+
+#footerinfo {
+
+    color: #dfe5ee;
+    display: flex;
+    letter-spacing: 4px;
+    font-family: 'Michroma', sans-serif;
+    font-size: 13px;
+    justify-content: space-evenly;
+    align-content: center;
+    padding-top: 10px;
+
+}
+
