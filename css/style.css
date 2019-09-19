@@ -3,18 +3,17 @@ body {
 }
 
 #navvbar {
-    position: fixed; 
-    top: 0; 
+    /* position: fixed; 
+    top: 0;  */
     width: 100%; 
     display: flex;
     flex-flow: row;
     color: #d1d7e0;
     font-size: 5px;
     font-family: 'Michroma', sans-serif;
-
     background-color: #2e293c;
     height: 95px;
-    z-index: 700;
+    /* z-index: 700; */
 }
 
 #navlogo {
@@ -31,6 +30,7 @@ body {
     align-content: bottom;
     padding-top: 55px;
     padding-bottom: 10px;
+    padding-left:80px;
     font-size: 5px;
     font-family: 'Michroma', sans-serif;
     /* width:80%; */
@@ -92,12 +92,13 @@ body {
 
 #footerdiv {
 
-    position: fixed;
+    /* position: fixed;
     left: 0;
     bottom: 0;
-    width: 100%;
-    height: 90px;
+    width: 100%; */
+    height: 60px;
     background-color: #2e293c;
+    margin-top: 40px;
 }
 
 #footerinfo {
@@ -152,19 +153,35 @@ body {
 
 
 /* This section of the css file is exclusive to the gallery pages */
+.slider {
 
-#contgallery {
+    object-fit: contain;
+    /* padding-left: 50px;
+    padding-right: 50px; */
+    padding: 50px;
+    max-width: none;
+    position: absolute;
+    top: 0;
+    left: 0;
+    min-width: 100%;
+    height: 500px;
+    max-width: none;
+}
+.carouselimg {
 
-    margin-top: 70px;
-    display: flex;
-    flex-direction: column;
-    flex-flow: column;
-    height: 700px;
-    align-items: center;
+    object-fit: contain;
+
+    position: absolute;
+    top: 0;
+    left: 0;
+    min-width: 100%;
+    height: 500px;
+    max-width: none;
 }
 
-.materialboxed {
-    margin-top:20px;
-    margin-bottom: 20px;
-}
+#carouselcont {
 
+    object-fit: contain;
+
+    padding: 50px;
+}
