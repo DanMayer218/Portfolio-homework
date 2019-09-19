@@ -132,3 +132,31 @@ body {
 
 }
 
+/* Everything to this point has been for elements that are universal to the site */
+
+/* Design.html page */
+
+#artcard {
+
+    background-color: #2e293c;
+
+    color: #f1f2f4d6;
+
+
+}
+
+#gallerydiv {
+
+    background-color: #050506;
+
+    padding-left: 70px;
+    padding-right: 70px;
+}
+
+#gallcards {
+
+    background-color: #2e293c;
+    color: #00000090;
+    /* background-color: #2e293c;
+    color: #d9dbde90; */
+}
