@@ -3,6 +3,9 @@ body {
 }
 
 #navvbar {
+    position: fixed; 
+    top: 0; 
+    width: 100%; 
     display: flex;
     flex-flow: row;
     color: #d1d7e0;
@@ -11,6 +14,7 @@ body {
 
     background-color: #2e293c;
     height: 95px;
+    z-index: 700;
 }
 
 #navlogo {
@@ -88,6 +92,10 @@ body {
 
 #footerdiv {
 
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
     height: 90px;
     background-color: #2e293c;
 }
@@ -145,5 +153,18 @@ body {
 
 /* This section of the css file is exclusive to the gallery pages */
 
+#contgallery {
 
+    margin-top: 70px;
+    display: flex;
+    flex-direction: column;
+    flex-flow: column;
+    height: 700px;
+    align-items: center;
+}
+
+.materialboxed {
+    margin-top:20px;
+    margin-bottom: 20px;
+}
 
