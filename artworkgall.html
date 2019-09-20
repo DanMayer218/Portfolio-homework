@@ -14,148 +14,80 @@
           <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.10.2/css/all.css" integrity="sha384-rtJEYb85SiYWgfpCr0jn174XgJTn4rptSOQsMroFBPQSGLdOC5IbubP6lJ35qoM9" crossorigin="anonymous">
         
           <!-- bootstrap css link -->
-        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+          <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
         
-        <!-- My css file -->
-        <link rel="stylesheet" type="text/css" href="css/style.css">
-        <!-- <link rel="stylesheet" type="text/css" href="css/cover.css"> -->
+          <!-- My css file -->
+          <link rel="stylesheet" type="text/css" href="css/style.css">
+          <!-- <link rel="stylesheet" type="text/css" href="css/cover.css"> -->
 
-        <!-- materialize Compiled and minified CSS -->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+          <!-- materialize Compiled and minified CSS -->
+          <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
 
-        <!-- google font links -->
-        <link href="https://fonts.googleapis.com/css?family=Darker+Grotesque&display=swap" rel="stylesheet">
-        <link href="https://fonts.googleapis.com/css?family=Quattrocento+Sans&display=swap" rel="stylesheet">
+          <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
 
-        <link href="https://fonts.googleapis.com/css?family=Michroma&display=swap" rel="stylesheet">
+          <!-- Fotorama from CDNJS, 19 KB -->
+          <link  href="https://cdnjs.cloudflare.com/ajax/libs/fotorama/4.6.4/fotorama.css" rel="stylesheet">
+          <script src="https://cdnjs.cloudflare.com/ajax/libs/fotorama/4.6.4/fotorama.js"></script>
+                  
+
+
+          <!-- google font links -->
+          <link href="https://fonts.googleapis.com/css?family=Darker+Grotesque&display=swap" rel="stylesheet">
+          <link href="https://fonts.googleapis.com/css?family=Quattrocento+Sans&display=swap" rel="stylesheet">
+
+          <link href="https://fonts.googleapis.com/css?family=Michroma&display=swap" rel="stylesheet">
 
     </head>
     <body>
         <!-- wrapper container for the entire body of the cover page -->
         <container-fluid>
+          <!-- Div containing the navbar -->
+        <div id="navvbar">
+            <img src="" width="100" height="100" id="navlogo" class="d-inline-block align-bottom" alt="signature logo"> 
+            <div id="navdiv">
+                    <a class="navlink" id="homenav" href="home.html">HOME</a>
+                    <a class="navlink" id="codingnav" href="coding.html">CODING</a>
+                    <a class="navlink" id="designav" href="design.html">DESIGN</a>
+                    <a class="navlink"  id="aboutnav" href="about.html">ABOUT</a>
+                </div>
+    </div>
 
-            <!-- Div containing the navbar -->
-            <!-- <div id="navvbar">
-                    <img src="" width="100" height="100" id="navlogo" class="d-inline-block align-bottom" alt="signature logo"> 
-                    <div id="navdiv">
-                            <a class="navlink" id="homenav" href="home.html">HOME</a>
-                            <a class="navlink" id="codingnav" href="coding.html">CODING</a>
-                            <a class="navlink" id="designav" href="design.html">DESIGN</a>
-                            <a class="navlink"  id="aboutnav" href="about.html">ABOUT</a>
-                        </div>
-            </div> -->
+     <!-- Add images to <div class="fotorama"></div> -->
+     <div class="fotorama" data-width="100%"
+     data-height="80%">
+      <img src="images/design_images/bickle.png" class="gallpics">
+      <img src="images/design_images/family huddle.png">
+      <img src="images/design_images/astronot.png">
+      <img src="images/design_images/robo.png">
+      <img src="images/design_images/skeletal.png">
+      <img src="images/design_images/visitors 2.png">
+      <img src="images/design_images/Glowfish.png">
+      <img src="images/design_images/wartorn.png">
+      <img src="images/design_images/IMG_1899.PNG">
+      <!-- <img src="images/design_images/">
+      <img src="images/design_images/">
+      <img src="images/design_images/">
+      <img src="images/design_images/">
+      <img src="images/design_images/">
+      <img src="images/design_images/">
+      <img src="images/design_images/">
+      <img src="images/design_images/">
+      <img src="images/design_images/"> -->
 
-        <!-- <container class="wrapper gallerydiv" id="gallerywrap">
-            <div id="gallerydiv">
-                  <-- <div class="imgbox"><img class="responsive-img mypics" src="images/design_images/bickle.png"></div>
-                <div class="imgbox"><img class="responsive-img mypics" src="images/design_images/Glowfish.png"></div>
-            <div class="imgbox"><img class="responsive-img mypics" src="images/design_images/astronot.png"></div>
-        <div class="imgbox"><img class="responsive-img mypics" src="images/design_images/family huddle.png"></div>
-    <div class="imgbox"><img class="responsive-img mypics" src="images/design_images/skeletal.png"></div>
-<div class="imgbox"><img class="responsive-img mypics" src="images/design_images/visitors 2.png"></div>
-                
+   
 
-        </container> -->
-        <div class="slider fullscreen" id="carouselcont">
-            <ul class="slides" style="object-fit: cover;">
-              <li>
-                <img class="carouselimg responsive-img" src="images/design_images/bickle.png"> <!-- random image -->
-                <!-- <div class="caption center-align">
-                  <h3>This is our big Tagline!</h3>
-                  <h5 class="light grey-text text-lighten-3">Here's our small slogan.</h5>
-                </div> -->
-              </li>
-              <li>
-                <img class="carouselimg responsive-img" src="images/design_images/family huddle.png"> <!-- random image -->
-                <!-- <div class="caption left-align">
-                  <h3>Left Aligned Caption</h3>
-                  <h5 class="light grey-text text-lighten-3">Here's our small slogan.</h5>
-                </div> -->
-              </li>
-              <li>
-                <img class="carouselimg responsive-img" src="images/design_images/astronot.png"> <!-- random image -->
-                <!-- <div class="caption right-align">
-                  <h3>Right Aligned Caption</h3>
-                  <h5 class="light grey-text text-lighten-3">Here's our small slogan.</h5>
-                </div> -->
-              </li>
-              <li>
-                <img class="carouselimg responsive-img" src="images/design_images/roboman.jpg"> <!-- random image -->
-                <!-- <div class="caption center-align">
-                  <h3>This is our big Tagline!</h3>
-                  <h5 class="light grey-text text-lighten-3">Here's our small slogan.</h5>
-                </div> -->
-              </li>
-              <li>
-                <img class="carouselimg responsive-img" src="images/design_images/skeletal.png"> <!-- random image -->
-                <!-- <div class="caption center-align">
-                  <h3>This is our big Tagline!</h3>
-                  <h5 class="light grey-text text-lighten-3">Here's our small slogan.</h5>
-                </div> -->
-              </li>
-              <li>
-                <img class="carouselimg responsive-img" src="images/design_images/visitors 2.png"> <!-- random image -->
-                <!-- <div class="caption left-align">
-                  <h3>Left Aligned Caption</h3>
-                  <h5 class="light grey-text text-lighten-3">Here's our small slogan.</h5>
-                </div> -->
-              </li>
-              <li>
-                <img class="carouselimg responsive-img" src="images/design_images/IMG_1899.PNG"> <!-- random image -->
-                <!-- <div class="caption right-align">
-                  <h3>Right Aligned Caption</h3>
-                  <h5 class="light grey-text text-lighten-3">Here's our small slogan.</h5>
-                </div> -->
-              </li>
-              <li>
-                <img class="carouselimg responsive-img" src="images/design_images/Glowfish.png"> <!-- random image -->
-                <!-- <div class="caption center-align">
-                  <h3>This is our big Tagline!</h3>
-                  <h5 class="light grey-text text-lighten-3">Here's our small slogan.</h5>
-                </div> -->
-              </li>
-              <li>
-                <img class="carouselimg responsive-img" src="images/design_images/Nuke bros.png"> <!-- random image -->
-                <!-- <div class="caption center-align">
-                  <h3>This is our big Tagline!</h3>
-                  <h5 class="light grey-text text-lighten-3">Here's our small slogan.</h5>
-                </div> -->
-              </li>
-              <li>
-                <img class="carouselimg responsive-img" src="images/design_images/wartorn.png"> <!-- random image -->
-                <!-- <div class="caption left-align">
-                  <h3>Left Aligned Caption</h3>
-                  <h5 class="light grey-text text-lighten-3">Here's our small slogan.</h5>
-                </div> -->
-              </li>
-              <li>
-                <img class="carouselimg responsive-img" src="images/design_images/Enola gray.png"> <!-- random image -->
-                <!-- <div class="caption right-align">
-                  <h3>Right Aligned Caption</h3>
-                  <h5 class="light grey-text text-lighten-3">Here's our small slogan.</h5>
-                </div> -->
-              </li>
-              <li>
-                <img class="carouselimg responsive-img" src="images/design_images/poison.png"> <!-- random image -->
-                <!-- <div class="caption center-align">
-                  <h3>This is our big Tagline!</h3>
-                  <h5 class="light grey-text text-lighten-3">Here's our small slogan.</h5>
-                </div> -->
-              </li>
-            </ul>
-          </div>
+  </div>
 
-    
-              <!-- Footer div -->
-              <!-- <div id="footerdiv">
+   <!-- Footer div -->
+   <div id="footerdiv">
                  
-                  <div id="footerinfo">
-                      <p>Daniel Mayer</p>
-                      <p>P: 914-310-0570</p>
-                      <p>E: Danmayernyc@gmail.com</p>
-                  </div> -->
+      <div id="footerinfo">
+          <p>Daniel Mayer</p>
+          <p>P: 914-310-0570</p>
+          <p>E: Danmayernyc@gmail.com</p>
+      </div>
 
-              </div>
+  </div>
 
 
         </container-fluid>
