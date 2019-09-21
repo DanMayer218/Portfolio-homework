@@ -1,0 +1,1 @@
+// image gallery javascript coming soon
