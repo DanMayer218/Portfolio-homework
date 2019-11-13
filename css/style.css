@@ -26,8 +26,8 @@ body {
 #navdiv {
     height: 70px;
     display: flex;
-    justify-content: space-between;
-    align-content: bottom;
+    justify-content: space-around;
+    align-content: center;
     padding-top: 55px;
     padding-bottom: 10px;
     padding-left:80px;
@@ -47,13 +47,15 @@ body {
     height: 25px;
     width: 125px;
     border: 1px solid #d9dbde90;
-    vertical-align: bottom;
+    align-self: center;
+    vertical-align: top;
     color: #cbcdcf90;
     font-family: 'Michroma', sans-serif;
-    font-size: 5px;
+    /* font-size: 5px; */
     letter-spacing:5px;
     font-size: 15px;
-    margin-left:60px;
+    margin-left:140px;
+   
     /* margin-right: 10px; */
     text-align:center;
 
